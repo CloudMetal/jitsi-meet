@@ -291,7 +291,7 @@ form {
 .leftwatermark {
     display: none;
     left: 15;
-    background-image:url(../images/watermark.png);
+    background-image:url(../images/vueit_logo.png);
     background-position: center left;
 }
 
