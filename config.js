@@ -1,16 +1,16 @@
 var config = {
     hosts: {
-        domain: 'talk.cloudmetal.com',
+        domain: 'talk.vueit.tv',
         //anonymousdomain: 'guest.example.com',
-        muc: 'conference.talk.cloudmetal.com', // FIXME: use XEP-0030
-        bridge: 'jitsi-videobridge.talk.cloudmetal.com', // FIXME: use XEP-0030
+        muc: 'conference.talk.vueit.tv', // FIXME: use XEP-0030
+        bridge: 'jitsi-videobridge.talk.vueit.tv', // FIXME: use XEP-0030
         //call_control: 'callcontrol.jitsi-meet.example.com'
     },
 //  getroomnode: function (path) { return 'someprefixpossiblybasedonpath'; },
 //  useStunTurn: true, // use XEP-0215 to fetch STUN and TURN server
 //  useIPv6: true, // ipv6 support. use at your own risk
     useNicks: false,
-    bosh: '//talk.cloudmetal.com/http-bind', // FIXME: use xep-0156 for that
+    bosh: '//talk.vueit.tv/http-bind', // FIXME: use xep-0156 for that
     clientNode: 'http://vueitapp.com', // The name of client node advertised in XEP-0115 'c' stanza
     //defaultSipNumber: '', // Default SIP number
     desktopSharing: 'ext', // Desktop sharing method. Can be set to 'ext', 'webrtc' or false to disable.
